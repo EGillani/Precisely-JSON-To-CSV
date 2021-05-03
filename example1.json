@@ -1,0 +1,2227 @@
+{
+    "boundaries": {
+        "boundary": [
+            {
+                "boundaryId": "450830218024",
+                "boundaryType": "USA_BLOCKGROUP",
+                "boundaryRef": "2010_census"
+            }
+        ]
+    },
+    "boundaryThemes": [
+        {
+            "boundaryId": "450830218024",
+            "populationTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "POPCY",
+                        "description": "Total Population",
+                        "year": "2019 Estimates",
+                        "value": "981"
+                    },
+                    {
+                        "name": "PMEDCY",
+                        "description": "Population Median Age",
+                        "year": "2019 Estimates",
+                        "value": "24.8"
+                    },
+                    {
+                        "name": "PADULTCY",
+                        "description": "Adult Population (18 Years And Over)",
+                        "year": "2019 Estimates",
+                        "value": "760"
+                    },
+                    {
+                        "name": "PAMEDCY",
+                        "description": "Adult Population (18 Years And Over) Median Age",
+                        "year": "2019 Estimates",
+                        "value": "30"
+                    },
+                    {
+                        "name": "P1819CY",
+                        "description": "Population 18 To 19 Years",
+                        "year": "2019 Estimates",
+                        "value": "96"
+                    },
+                    {
+                        "name": "HHCY",
+                        "description": "Total Households",
+                        "year": "2019 Estimates",
+                        "value": "395"
+                    },
+                    {
+                        "name": "HHPOPCY",
+                        "description": "Population In Households",
+                        "year": "2019 Estimates",
+                        "value": "981"
+                    },
+                    {
+                        "name": "GQPOPCY",
+                        "description": "Group Quarters Population",
+                        "year": "2019 Estimates",
+                        "value": "0"
+                    },
+                    {
+                        "name": "LS01P05PCY",
+                        "description": "Language Spoken At Home: Population 5+ Years",
+                        "year": "2019 Estimates",
+                        "value": "910"
+                    },
+                    {
+                        "name": "DAYPOPCY",
+                        "description": "Total Daytime Population",
+                        "year": "2019 Estimates",
+                        "value": "843"
+                    },
+                    {
+                        "name": "DAYWORKCY",
+                        "description": "Total Employees",
+                        "year": "2019 Estimates",
+                        "value": "332"
+                    },
+                    {
+                        "name": "DAYHOMECY",
+                        "description": "Total Daytime At Home Population",
+                        "year": "2019 Estimates",
+                        "value": "511"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "AGEPCX",
+                        "alias": "% Age",
+                        "description": "Population Percentage By 5-Year Age Ranges",
+                        "baseVariable": "POPCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "13.46",
+                                "name": "P3544CX",
+                                "description": "Population % 35 To 44 Years"
+                            },
+                            {
+                                "value": "8.26",
+                                "name": "P4554CX",
+                                "description": "Population % 45 To 54 Years"
+                            },
+                            {
+                                "value": "15.49",
+                                "name": "P2534CX",
+                                "description": "Population % 25 To 34 Years"
+                            },
+                            {
+                                "value": "18.35",
+                                "name": "P2024CX",
+                                "description": "Population % 20 To 24 Years"
+                            },
+                            {
+                                "value": "12.64",
+                                "name": "P1519CX",
+                                "description": "Population % 15 To 19 Years"
+                            },
+                            {
+                                "value": "7.24",
+                                "name": "P0004CX",
+                                "description": "Population % Under 5 Years"
+                            },
+                            {
+                                "value": "4.99",
+                                "name": "P1014CX",
+                                "description": "Population % 10 To 14 Years"
+                            },
+                            {
+                                "value": "4.08",
+                                "name": "P6574CX",
+                                "description": "Population % 65 To 74 Years"
+                            },
+                            {
+                                "value": "7.44",
+                                "name": "P0509CX",
+                                "description": "Population % 5 To 9 Years"
+                            },
+                            {
+                                "value": "2.24",
+                                "name": "P6064CX",
+                                "description": "Population % 60 To 64 Years"
+                            },
+                            {
+                                "value": "2.55",
+                                "name": "P5559CX",
+                                "description": "Population % 55 To 59 Years"
+                            },
+                            {
+                                "value": "2.14",
+                                "name": "P7584CX",
+                                "description": "Population % 75 To 84 Years"
+                            },
+                            {
+                                "value": "1.12",
+                                "name": "P85PCX",
+                                "description": "Population % 85 Years And Over"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "GENDERPCX",
+                        "alias": "% Gender",
+                        "description": "Population Percentage By Gender",
+                        "baseVariable": "POPCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "48.93",
+                                "name": "MALECX",
+                                "description": "Male Population %"
+                            },
+                            {
+                                "value": "51.07",
+                                "name": "FEMALECX",
+                                "description": "Female Population %"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LANGPCY",
+                        "alias": "Language Spoken At Home",
+                        "description": "Population 5+ Years By Language Spoken At Home",
+                        "baseVariable": "LS01P05PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "708",
+                                "name": "LS02ENGLCY",
+                                "description": "Speak Only English"
+                            },
+                            {
+                                "value": "193",
+                                "name": "LS03SPANCY",
+                                "description": "Spanish Or Spanish Creole"
+                            },
+                            {
+                                "value": "3",
+                                "name": "LS04FRENCY",
+                                "description": "French (Incl. Patois, Cajun)"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS05FRCRCY",
+                                "description": "French Creole"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS06ITALCY",
+                                "description": "Italian"
+                            },
+                            {
+                                "value": "1",
+                                "name": "LS07PORTCY",
+                                "description": "Portuguese Or Portuguese Creole"
+                            },
+                            {
+                                "value": "1",
+                                "name": "LS08GERMCY",
+                                "description": "German"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS09YIDDCY",
+                                "description": "Yiddish"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS10OWGECY",
+                                "description": "Other West Germanic Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS11SCANCY",
+                                "description": "Scandinavian Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS12GREECY",
+                                "description": "Greek"
+                            },
+                            {
+                                "value": "1",
+                                "name": "LS13RUSSCY",
+                                "description": "Russian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS14POLICY",
+                                "description": "Polish"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS15SERBCY",
+                                "description": "Serbo-Croatian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS16OSLACY",
+                                "description": "Other Slavic Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS17ARMECY",
+                                "description": "Armenian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS18PERSCY",
+                                "description": "Persian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS19GUJACY",
+                                "description": "Guajarati"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS20HINDCY",
+                                "description": "Hindi"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS21URDUCY",
+                                "description": "Urdu"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS22OINDCY",
+                                "description": "Other Indic Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS23OIEUCY",
+                                "description": "Other Indo-European Languages"
+                            },
+                            {
+                                "value": "1",
+                                "name": "LS24CHINCY",
+                                "description": "Chinese"
+                            },
+                            {
+                                "value": "1",
+                                "name": "LS25JAPACY",
+                                "description": "Japanese"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS26KORECY",
+                                "description": "Korean"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS27MOCACY",
+                                "description": "Mon-Khmer, Cambodian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS28HMONCY",
+                                "description": "Hmong (Miao)"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS29THAICY",
+                                "description": "Thai"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS30LOATCY",
+                                "description": "Laotian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS31VIETCY",
+                                "description": "Vietnamese"
+                            },
+                            {
+                                "value": "1",
+                                "name": "LS32OASNCY",
+                                "description": "Other Asian Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS33TAGACY",
+                                "description": "Tagalog"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS34OPISCY",
+                                "description": "Other Pacific Island Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS35NAVACY",
+                                "description": "Navajo"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS36ONNACY",
+                                "description": "Other Native North American Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS37HUNGCY",
+                                "description": "Hungarian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS38ARABCY",
+                                "description": "Arabic"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS39HEBRCY",
+                                "description": "Hebrew"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS40AFRICY",
+                                "description": "African Languages"
+                            },
+                            {
+                                "value": "0",
+                                "name": "LS41OTUNCY",
+                                "description": "Other And Unspecified Languages"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ANCSPCY",
+                        "alias": "Ancestry",
+                        "description": "Population By Ancestry",
+                        "baseVariable": "POPCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "47",
+                                "name": "AN01AMERCY",
+                                "description": "American"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN02ARABCY",
+                                "description": "Arab"
+                            },
+                            {
+                                "value": "3",
+                                "name": "AN03BRITCY",
+                                "description": "British"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN04CZECCY",
+                                "description": "Czech"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN05DANICY",
+                                "description": "Danish"
+                            },
+                            {
+                                "value": "3",
+                                "name": "AN06DUTCCY",
+                                "description": "Dutch"
+                            },
+                            {
+                                "value": "96",
+                                "name": "AN07ENGLCY",
+                                "description": "English"
+                            },
+                            {
+                                "value": "5",
+                                "name": "AN08EUROCY",
+                                "description": "European"
+                            },
+                            {
+                                "value": "9",
+                                "name": "AN09FRENCY",
+                                "description": "French (Except Basque)"
+                            },
+                            {
+                                "value": "1",
+                                "name": "AN10FRCNCY",
+                                "description": "French Canadian"
+                            },
+                            {
+                                "value": "67",
+                                "name": "AN11GERMCY",
+                                "description": "German"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN12GREECY",
+                                "description": "Greek"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN13HUNGCY",
+                                "description": "Hungarian"
+                            },
+                            {
+                                "value": "65",
+                                "name": "AN14IRISCY",
+                                "description": "Irish"
+                            },
+                            {
+                                "value": "19",
+                                "name": "AN15ITALCY",
+                                "description": "Italian"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN16LITHCY",
+                                "description": "Lithuanian"
+                            },
+                            {
+                                "value": "1",
+                                "name": "AN17NORWCY",
+                                "description": "Norwegian"
+                            },
+                            {
+                                "value": "9",
+                                "name": "AN18POLICY",
+                                "description": "Polish"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN19PORTCY",
+                                "description": "Portuguese"
+                            },
+                            {
+                                "value": "4",
+                                "name": "AN20RUSSCY",
+                                "description": "Russian"
+                            },
+                            {
+                                "value": "8",
+                                "name": "AN21SCIRCY",
+                                "description": "Scotch-Irish"
+                            },
+                            {
+                                "value": "20",
+                                "name": "AN22SCOTCY",
+                                "description": "Scottish"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN23SLOVCY",
+                                "description": "Slovak"
+                            },
+                            {
+                                "value": "5",
+                                "name": "AN24SAFRCY",
+                                "description": "Sub-Saharan African"
+                            },
+                            {
+                                "value": "1",
+                                "name": "AN25SWEDCY",
+                                "description": "Swedish"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN26SWISCY",
+                                "description": "Swiss"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN27UKRACY",
+                                "description": "Ukrainian"
+                            },
+                            {
+                                "value": "1",
+                                "name": "AN28WELSCY",
+                                "description": "Welsh"
+                            },
+                            {
+                                "value": "0",
+                                "name": "AN29WINDCY",
+                                "description": "West Indian (Except Hispanic Groups)"
+                            },
+                            {
+                                "value": "410",
+                                "name": "AN30OTHGCY",
+                                "description": "Other Groups"
+                            },
+                            {
+                                "value": "207",
+                                "name": "AN31UCNRCY",
+                                "description": "Unclassified Or Not Reported"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "raceAndEthnicityTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "POPCY",
+                        "description": "Total Population",
+                        "year": "2019 Estimates",
+                        "value": "981"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "RACEPCX",
+                        "alias": "% Race",
+                        "description": "Population Percentage By Race",
+                        "baseVariable": "POPCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "69.52",
+                                "name": "WHTPOPCX",
+                                "description": "Population % White Alone"
+                            },
+                            {
+                                "value": "12.54",
+                                "name": "BLKPOPCX",
+                                "description": "Population % Black Or African American Alone"
+                            },
+                            {
+                                "value": "0.2",
+                                "name": "INDPOPCX",
+                                "description": "Population % American Indian And Alaska Native Alone"
+                            },
+                            {
+                                "value": "3.87",
+                                "name": "ASNPOPCX",
+                                "description": "Population % Asian Alone"
+                            },
+                            {
+                                "value": "0",
+                                "name": "HPIPOPCX",
+                                "description": "Population % Native Hawaiian And OPI Alone"
+                            },
+                            {
+                                "value": "11.62",
+                                "name": "OTHPOPCX",
+                                "description": "Population % Some Other Race Alone"
+                            },
+                            {
+                                "value": "2.24",
+                                "name": "TWOPOPCX",
+                                "description": "Population % Two Or More Races Alone"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "HSPPCX",
+                        "alias": "% Ethnicity",
+                        "description": "Population Percentage By Ethnicity",
+                        "baseVariable": "POPCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "20.8",
+                                "name": "HSPPOPCX",
+                                "description": "Population % Hispanic"
+                            },
+                            {
+                                "value": "79.2",
+                                "name": "NHPOPCX",
+                                "description": "Population % Not Hispanic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "healthTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "H01TOTTPCY",
+                        "description": "Total Civilian Noninstitutionalized Population",
+                        "year": "2019 Estimates",
+                        "value": "981"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "INSTYPECY",
+                        "alias": "Types Of Health Insurance Coverage",
+                        "description": "Population By Types Of Health Insurance Coverage",
+                        "baseVariable": "H01TOTTPCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "552",
+                                "name": "H02ONETPCY",
+                                "description": "With One Type Of Coverage"
+                            },
+                            {
+                                "value": "67",
+                                "name": "H09TWOTPCY",
+                                "description": "With Two Or More Types Of Coverage"
+                            },
+                            {
+                                "value": "362",
+                                "name": "H17NOCTPCY",
+                                "description": "No Coverage"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "educationTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "ED01P25PCY",
+                        "description": "Population 25+ Years",
+                        "year": "2019 Estimates",
+                        "value": "484"
+                    },
+                    {
+                        "name": "SE1P3PCY",
+                        "description": "Population 3+ Years Eligible For School Enrollment",
+                        "year": "2019 Estimates",
+                        "value": "940"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "EDUATTAINPCX",
+                        "alias": "% Educational Attainment",
+                        "description": "Population % By Educational Attainment",
+                        "baseVariable": "ED01P25PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "13.43",
+                                "name": "ED7BACHCX",
+                                "description": "% Educational Attainment: Bachelor's Degree"
+                            },
+                            {
+                                "value": "8.26",
+                                "name": "ED6ASSOCX",
+                                "description": "% Educational Attainment: Associate's Degree"
+                            },
+                            {
+                                "value": "44.01",
+                                "name": "ED4HSCHCX",
+                                "description": "% Educational Attainment: High School Graduate, Ged, Or Alternative"
+                            },
+                            {
+                                "value": "14.46",
+                                "name": "ED5SCNDCX",
+                                "description": "% Educational Attainment: Some College, No Degree"
+                            },
+                            {
+                                "value": "1.03",
+                                "name": "ED8GRADCX",
+                                "description": "% Educational Attainment: Graduate Or Professional Degree"
+                            },
+                            {
+                                "value": "12.6",
+                                "name": "ED3GR912CX",
+                                "description": "% Educational Attainment: 9Th To 12Th Grade, No Diploma"
+                            },
+                            {
+                                "value": "6.2",
+                                "name": "ED2LTGR9CX",
+                                "description": "% Educational Attainment: Less Than 9Th Grade"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "SCHENROLPCY",
+                        "alias": "School Enrollment",
+                        "description": "School Enrollment By Level Of School For The 3+ Yrs Population",
+                        "baseVariable": "SE1P3PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "0",
+                                "name": "SE2NSPSCY",
+                                "description": "Enrolled In Nursery School, Preschool"
+                            },
+                            {
+                                "value": "0",
+                                "name": "SE3KINDCY",
+                                "description": "Enrolled In Kindergarten"
+                            },
+                            {
+                                "value": "17",
+                                "name": "SE4GR14CY",
+                                "description": "Enrolled In Grade 1 To Grade 4"
+                            },
+                            {
+                                "value": "74",
+                                "name": "SE5GR58CY",
+                                "description": "Enrolled In Grade 5 To Grade 8"
+                            },
+                            {
+                                "value": "29",
+                                "name": "SE6GR912CY",
+                                "description": "Enrolled In Grade 9 To Grade 12"
+                            },
+                            {
+                                "value": "80",
+                                "name": "SE7UGRADCY",
+                                "description": "Enrolled In College, Undergraduate Years"
+                            },
+                            {
+                                "value": "29",
+                                "name": "SE8GRADCY",
+                                "description": "Graduate Or Professional School"
+                            },
+                            {
+                                "value": "711",
+                                "name": "SE9NOTENCY",
+                                "description": "Not Enrolled In School"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "incomeTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "HHCY",
+                        "description": "Total Households",
+                        "year": "2019 Estimates",
+                        "value": "395"
+                    },
+                    {
+                        "name": "HIMEDCY",
+                        "description": "Household Median Income $",
+                        "year": "2019 Estimates",
+                        "value": "33021"
+                    },
+                    {
+                        "name": "HIAVGCY",
+                        "description": "Household Average Income $",
+                        "year": "2019 Estimates",
+                        "value": "62184"
+                    },
+                    {
+                        "name": "HIAGGCY",
+                        "description": "Aggregate Household Income $",
+                        "year": "2019 Estimates",
+                        "value": "24562522"
+                    },
+                    {
+                        "name": "INCPCCY",
+                        "description": "Per Capita Income $",
+                        "year": "2019 Estimates",
+                        "value": "25038"
+                    },
+                    {
+                        "name": "INCPHMCY",
+                        "description": "Per Household Member Income $",
+                        "year": "2019 Estimates",
+                        "value": "25038"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "INCOMEKCX",
+                        "alias": "% Household Income",
+                        "description": "Household % By Household Income",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "14.68",
+                                "name": "HI035KCX",
+                                "description": "% $35,000 To $49,999"
+                            },
+                            {
+                                "value": "4.56",
+                                "name": "HI050KCX",
+                                "description": "% $50,000 To $74,999"
+                            },
+                            {
+                                "value": "7.09",
+                                "name": "HI075KCX",
+                                "description": "% $75,000 To $99,999"
+                            },
+                            {
+                                "value": "13.92",
+                                "name": "HI015KCX",
+                                "description": "% $15,000 To $24,999"
+                            },
+                            {
+                                "value": "14.18",
+                                "name": "HI025KCX",
+                                "description": "% $25,000 To $34,999"
+                            },
+                            {
+                                "value": "20",
+                                "name": "HI010KCX",
+                                "description": "% $10,000 To $14,999"
+                            },
+                            {
+                                "value": "4.3",
+                                "name": "HI000KCX",
+                                "description": "% Less Than $10,000"
+                            },
+                            {
+                                "value": "15.7",
+                                "name": "HI150KCX",
+                                "description": "% $150,000 To $199,999"
+                            },
+                            {
+                                "value": "4.05",
+                                "name": "HI100KCX",
+                                "description": "% $100,000 To $149,999"
+                            },
+                            {
+                                "value": "1.52",
+                                "name": "HI200PCX",
+                                "description": "% $200,000 Or More"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "assetsAndWealthTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "HHCY",
+                        "description": "Total Households",
+                        "year": "2019 Estimates",
+                        "value": "395"
+                    },
+                    {
+                        "name": "AVGFACY",
+                        "description": "Average Household Financial Assets $",
+                        "year": "2019 Estimates",
+                        "value": "33324"
+                    },
+                    {
+                        "name": "MEDFACY",
+                        "description": "Median Household Financial Assets $",
+                        "year": "2019 Estimates",
+                        "value": "15577"
+                    },
+                    {
+                        "name": "AVGWLTHCY",
+                        "description": "Average Household Wealth $",
+                        "year": "2019 Estimates",
+                        "value": "38034"
+                    },
+                    {
+                        "name": "MEDWLTHCY",
+                        "description": "Median Household Wealth $",
+                        "year": "2019 Estimates",
+                        "value": "16625"
+                    },
+                    {
+                        "name": "AGGFACY",
+                        "description": "Aggregate Household Financial Assets $",
+                        "year": "2019 Estimates",
+                        "value": "13162980"
+                    },
+                    {
+                        "name": "AGGWLTHCY",
+                        "description": "Aggregate Household Wealth $",
+                        "year": "2019 Estimates",
+                        "value": "15023430"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "ASSESTKCY",
+                        "alias": "Financial Assets",
+                        "description": "Households By Financial Assets",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "145",
+                                "name": "FA0KCY",
+                                "description": "$ 0 - $ 5,000"
+                            },
+                            {
+                                "value": "51",
+                                "name": "FA5KCY",
+                                "description": "$ 5,000 - $ 14,999"
+                            },
+                            {
+                                "value": "25",
+                                "name": "FA75KCY",
+                                "description": "$ 75,000 - $ 99,999"
+                            },
+                            {
+                                "value": "10",
+                                "name": "FA100KCY",
+                                "description": "$100,000 - $149,999"
+                            },
+                            {
+                                "value": "41",
+                                "name": "FA50KCY",
+                                "description": "$ 50,000 - $ 74,999"
+                            },
+                            {
+                                "value": "3",
+                                "name": "FA150KCY",
+                                "description": "$150,000 - $249,999"
+                            },
+                            {
+                                "value": "50",
+                                "name": "FA35KCY",
+                                "description": "$ 35,000 - $ 49,999"
+                            },
+                            {
+                                "value": "1",
+                                "name": "FA500KCY",
+                                "description": "$500,000 +"
+                            },
+                            {
+                                "value": "43",
+                                "name": "FA25KCY",
+                                "description": "$ 25,000 - $ 34,999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "FA250KCY",
+                                "description": "$250,000 - $499,999"
+                            },
+                            {
+                                "value": "26",
+                                "name": "FA15KCY",
+                                "description": "$ 15,000 - $ 24,999"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WEALTHKCY",
+                        "alias": "Wealth",
+                        "description": "Households By Net Wealth",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "19",
+                                "name": "WLTH100KCY",
+                                "description": "$ 100,000 - $ 249,999"
+                            },
+                            {
+                                "value": "7",
+                                "name": "WLTH250KCY",
+                                "description": "$ 250,000 - $ 499,999"
+                            },
+                            {
+                                "value": "33",
+                                "name": "WLTH50KCY",
+                                "description": "$ 50,000 - $ 99,999"
+                            },
+                            {
+                                "value": "2",
+                                "name": "WLTH500KCY",
+                                "description": "$ 500,000 - $ 749,999"
+                            },
+                            {
+                                "value": "297",
+                                "name": "WLTH0KCY",
+                                "description": "$ 0 - $ 25,000"
+                            },
+                            {
+                                "value": "37",
+                                "name": "WLTH25KCY",
+                                "description": "$ 25,000 - $ 49,999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "WLTH750KCY",
+                                "description": "$ 750,000 - $ 999,999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "WLTH1MMCY",
+                                "description": "$1,000,000 - $1,499,999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "WLTH1M5CY",
+                                "description": "$1,500,000 +"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "householdsTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "HHCY",
+                        "description": "Total Households",
+                        "year": "2019 Estimates",
+                        "value": "395"
+                    },
+                    {
+                        "name": "HHPOPCY",
+                        "description": "Population In Households",
+                        "year": "2019 Estimates",
+                        "value": "981"
+                    },
+                    {
+                        "name": "MS1P15PCY",
+                        "description": "Population 15 Years And Over",
+                        "year": "2019 Estimates",
+                        "value": "788"
+                    },
+                    {
+                        "name": "AVGHHSZCY",
+                        "description": "Average Household Size",
+                        "year": "2019 Estimates",
+                        "value": "2.48"
+                    },
+                    {
+                        "name": "GQPOPCY",
+                        "description": "Population In Group Quarters",
+                        "year": "2019 Estimates",
+                        "value": "0"
+                    },
+                    {
+                        "name": "FHCY",
+                        "description": "Family Households",
+                        "year": "2019 Estimates",
+                        "value": "244"
+                    },
+                    {
+                        "name": "NFHCY",
+                        "description": "Nonfamily Households",
+                        "year": "2019 Estimates",
+                        "value": "151"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "MARSTATPCX",
+                        "alias": "% Marital Status",
+                        "description": "Population (15+ Years) Percentage By Marital Status",
+                        "baseVariable": "MS1P15PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "29.31",
+                                "name": "MS2PNMCX",
+                                "description": "% Never Married"
+                            },
+                            {
+                                "value": "33.38",
+                                "name": "MS3PMARCX",
+                                "description": "% Now Married"
+                            },
+                            {
+                                "value": "17.26",
+                                "name": "MS6PDIVCX",
+                                "description": "% Divorced"
+                            },
+                            {
+                                "value": "15.86",
+                                "name": "MS5PWIDCX",
+                                "description": "% Widowed"
+                            },
+                            {
+                                "value": "4.19",
+                                "name": "MS4PSEPCX",
+                                "description": "% Separated"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "HHSIZECX",
+                        "alias": "% Household Size",
+                        "description": "Household Percentage By Household Size",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "33.92",
+                                "name": "HHS2PERCX",
+                                "description": "% Household With 2 Persons"
+                            },
+                            {
+                                "value": "28.35",
+                                "name": "HHS1PERCX",
+                                "description": "% Household With 1 Person"
+                            },
+                            {
+                                "value": "15.19",
+                                "name": "HHS3PERCX",
+                                "description": "% Household With 3 Persons"
+                            },
+                            {
+                                "value": "22.53",
+                                "name": "HHS4PERCX",
+                                "description": "% Household With 4 Or More Persons"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "HSPHHCY",
+                        "alias": "Ethnicity Of Householder",
+                        "description": "Households By Hispanic Or Latino Origin Of Householder",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "356",
+                                "name": "NHHHCY",
+                                "description": "Not Hispanic Householder"
+                            },
+                            {
+                                "value": "39",
+                                "name": "HSPHHCY",
+                                "description": "Hispanic Householder"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TENURECX",
+                        "alias": "% Tenure",
+                        "description": "Household Percentage By Tenure",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "40.25",
+                                "name": "RNTCX",
+                                "description": "% Renter Occupied Housing Units"
+                            },
+                            {
+                                "value": "59.75",
+                                "name": "OWNCX",
+                                "description": "% Owner Occupied Housing Units"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "AGEHHCX",
+                        "alias": "% Age Of Householder",
+                        "description": "Household Percentage By Age Of Householder",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "31.39",
+                                "name": "HHA1534CX",
+                                "description": "% Householder 15 To 34 Years"
+                            },
+                            {
+                                "value": "15.7",
+                                "name": "HHA4554CX",
+                                "description": "% Householder 45 To 54 Years"
+                            },
+                            {
+                                "value": "22.78",
+                                "name": "HHA3544CX",
+                                "description": "% Householder 35 To 44 Years"
+                            },
+                            {
+                                "value": "11.9",
+                                "name": "HHA5564CX",
+                                "description": "% Householder 55 To 64 Years"
+                            },
+                            {
+                                "value": "10.13",
+                                "name": "HHA6574CX",
+                                "description": "% Householder 65 To 74 Years"
+                            },
+                            {
+                                "value": "5.32",
+                                "name": "HHA7584CX",
+                                "description": "% Householder 75 To 84 Years"
+                            },
+                            {
+                                "value": "2.78",
+                                "name": "HHA85PCX",
+                                "description": "% Householder 85 Years And Over"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "housingTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "CRCASHCY",
+                        "description": "Household With Cash Contract Rent",
+                        "year": "2019 Estimates",
+                        "value": "139"
+                    },
+                    {
+                        "name": "CRNOCASHCY",
+                        "description": "Household With No Cash Contract Rent",
+                        "year": "2019 Estimates",
+                        "value": "20"
+                    },
+                    {
+                        "name": "CRAGGCY",
+                        "description": "Aggregate Contract Rent $",
+                        "year": "2019 Estimates",
+                        "value": "69722"
+                    },
+                    {
+                        "name": "HVAGGCY",
+                        "description": "Aggregate Home Value $",
+                        "year": "2019 Estimates",
+                        "value": "31722506"
+                    },
+                    {
+                        "name": "HHVAGGCY",
+                        "description": "Aggregate Number Of Vehicles Available",
+                        "year": "2019 Estimates",
+                        "value": "553"
+                    },
+                    {
+                        "name": "HHRMMEDCY",
+                        "description": "Median Number Of Rooms In A Household",
+                        "year": "2019 Estimates",
+                        "value": "5.1"
+                    },
+                    {
+                        "name": "HHRMAGGCY",
+                        "description": "Aggregate Number Of Rooms In A Household",
+                        "year": "2019 Estimates",
+                        "value": "2054"
+                    },
+                    {
+                        "name": "HHRMAVGCY",
+                        "description": "Average Number Of Rooms In A Household",
+                        "year": "2019 Estimates",
+                        "value": "5.2"
+                    },
+                    {
+                        "name": "HHCY",
+                        "description": "Total Households",
+                        "year": "2019 Estimates",
+                        "value": "395"
+                    },
+                    {
+                        "name": "CRMEDCY",
+                        "description": "Median Contract Rent $",
+                        "year": "2019 Estimates",
+                        "value": "547"
+                    },
+                    {
+                        "name": "CRAVGCY",
+                        "description": "Average Contract Rent $",
+                        "year": "2019 Estimates",
+                        "value": "502"
+                    },
+                    {
+                        "name": "HVMEDCY",
+                        "description": "Median Home Value $",
+                        "year": "2019 Estimates",
+                        "value": "132540"
+                    },
+                    {
+                        "name": "HVAVGCY",
+                        "description": "Average Home Value $",
+                        "year": "2019 Estimates",
+                        "value": "134417"
+                    },
+                    {
+                        "name": "HHVAVGCY",
+                        "description": "Average Number Of Vehicles Available",
+                        "year": "2019 Estimates",
+                        "value": "1.4"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "HEATINGHCX",
+                        "alias": "% House Heating Fuel",
+                        "description": "Household Percentage By House Heating Fuel",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "6.08",
+                                "name": "HHF1GASCX",
+                                "description": "% House Heating Fuel: Gas"
+                            },
+                            {
+                                "value": "90.13",
+                                "name": "HHF2ELECCX",
+                                "description": "% House Heating Fuel: Electricity"
+                            },
+                            {
+                                "value": "3.8",
+                                "name": "HHF3OILCX",
+                                "description": "% House Heating Fuel: Fuel Oil, Kerosene, Etc."
+                            },
+                            {
+                                "value": "0",
+                                "name": "HHF4OTHCX",
+                                "description": "% House Heating Fuel: All Other Fuels And No Fuel Used"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CONTRACTCASHCX",
+                        "alias": "% Contract Rent Cash/Noncash",
+                        "description": "Household Percentage By Contract Rent Payment Method",
+                        "baseVariable": "RNTCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "87.42",
+                                "name": "CRCASHCX",
+                                "description": "% With Cash Rent"
+                            },
+                            {
+                                "value": "12.58",
+                                "name": "CRNOCASHCX",
+                                "description": "% No Cash Rent"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "CONTRACTRNTCX",
+                        "alias": "% Contract Rent",
+                        "description": "Household Percentage By Cash Contract Rent",
+                        "baseVariable": "CRCASHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "0",
+                                "name": "CR0000CX",
+                                "description": "% Contract Rent Less Than $200"
+                            },
+                            {
+                                "value": "17.99",
+                                "name": "CR0200CX",
+                                "description": "% Contract Rent $200 To $299"
+                            },
+                            {
+                                "value": "13.67",
+                                "name": "CR0300CX",
+                                "description": "% Contract Rent $300 To $499"
+                            },
+                            {
+                                "value": "68.35",
+                                "name": "CR0500CX",
+                                "description": "% Contract Rent $500 To $749"
+                            },
+                            {
+                                "value": "0",
+                                "name": "CR0750CX",
+                                "description": "% Contract Rent $750 To $999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "CR1000PCX",
+                                "description": "% Contract Rent $1,000 Or More"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "HMVALUECX",
+                        "alias": "% Home Value",
+                        "description": "Owner Occupied Household Percentage By Home Value",
+                        "baseVariable": "OWNCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "14.41",
+                                "name": "HV0000KCX",
+                                "description": "% Home Value Less Than $50,000"
+                            },
+                            {
+                                "value": "7.63",
+                                "name": "HV0050KCX",
+                                "description": "% Home Value $50,000 To $99,999"
+                            },
+                            {
+                                "value": "46.61",
+                                "name": "HV0100KCX",
+                                "description": "% Home Value $100,000 To $149,999"
+                            },
+                            {
+                                "value": "20.76",
+                                "name": "HV0150KCX",
+                                "description": "% Home Value $150,000 To $199,999"
+                            },
+                            {
+                                "value": "6.36",
+                                "name": "HV0200KCX",
+                                "description": "% Home Value $200,000 To $299,999"
+                            },
+                            {
+                                "value": "4.24",
+                                "name": "HV0300KCX",
+                                "description": "% Home Value $300,000 To $499,999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "HV0500KCX",
+                                "description": "% Home Value $500,000 To $999,999"
+                            },
+                            {
+                                "value": "0",
+                                "name": "HV1000KPCX",
+                                "description": "% Home Value $1,000,000 Or More"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "VEHICLEHHCX",
+                        "alias": "% Vehicles Available",
+                        "description": "Household Percentage By Vehicles Available",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "22.28",
+                                "name": "HHVEH0CX",
+                                "description": "% Households: No Vehicle Available"
+                            },
+                            {
+                                "value": "49.62",
+                                "name": "HHVEH1CX",
+                                "description": "% Households: 1 Vehicle Available"
+                            },
+                            {
+                                "value": "10.38",
+                                "name": "HHVEH2CX",
+                                "description": "% Households: 2 Vehicles Available"
+                            },
+                            {
+                                "value": "17.72",
+                                "name": "HHVEH3PCX",
+                                "description": "% Households: 3 Or More Vehicles Available"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TENURECX",
+                        "alias": "% Tenure",
+                        "description": "Household Percentage By Tenure",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "59.75",
+                                "name": "OWNCX",
+                                "description": "% Owner Occupied Housing Units"
+                            },
+                            {
+                                "value": "40.25",
+                                "name": "RNTCX",
+                                "description": "% Renter Occupied Housing Units"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ROOMSHCY",
+                        "alias": "Rooms",
+                        "description": "Households By Rooms",
+                        "baseVariable": "HHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "19",
+                                "name": "HHRM1CY",
+                                "description": "1 Room Households"
+                            },
+                            {
+                                "value": "0",
+                                "name": "HHRM2CY",
+                                "description": "2 Rooms Households"
+                            },
+                            {
+                                "value": "53",
+                                "name": "HHRM3CY",
+                                "description": "3 Rooms Households"
+                            },
+                            {
+                                "value": "62",
+                                "name": "HHRM4CY",
+                                "description": "4 Rooms Households"
+                            },
+                            {
+                                "value": "120",
+                                "name": "HHRM5CY",
+                                "description": "5 Rooms Households"
+                            },
+                            {
+                                "value": "50",
+                                "name": "HHRM6CY",
+                                "description": "6 Rooms Households"
+                            },
+                            {
+                                "value": "51",
+                                "name": "HHRM7CY",
+                                "description": "7 Rooms Households"
+                            },
+                            {
+                                "value": "32",
+                                "name": "HHRM8CY",
+                                "description": "8 Rooms Households"
+                            },
+                            {
+                                "value": "8",
+                                "name": "HHRM9CY",
+                                "description": "9 Or More Rooms Households"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "employmentTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "WRKCY",
+                        "description": "Workers 16+ Years",
+                        "year": "2019 Estimates",
+                        "value": "470"
+                    },
+                    {
+                        "name": "TTAVGCY",
+                        "description": "Average Travel Time (In Minutes) To Work",
+                        "year": "2019 Estimates",
+                        "value": "22.4"
+                    },
+                    {
+                        "name": "ECPOP16PCY",
+                        "description": "Total Civilian Employed Population 16 Years And Over",
+                        "year": "2019 Estimates",
+                        "value": "514"
+                    },
+                    {
+                        "name": "TTAGGCY",
+                        "description": "Aggregate Travel Time (In Minutes) To Work",
+                        "year": "2019 Estimates",
+                        "value": "10528"
+                    }
+                ],
+                "rangeVariable": [
+                    {
+                        "name": "WORKERSCX",
+                        "alias": "% Workers",
+                        "description": "% Workers Age 16+ Years By Work Location",
+                        "baseVariable": "WRKCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "100",
+                                "name": "WRKNAHCX",
+                                "description": "% Workers Who Did Not Work At Home"
+                            },
+                            {
+                                "value": "0",
+                                "name": "WRKAHCX",
+                                "description": "% Workers Who Work At Home"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "MEANSTRNSPTCX",
+                        "alias": "% Means Of Transportation",
+                        "description": "Workers % By Means Of Transportation To Work",
+                        "baseVariable": "WRKNAHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "94.89",
+                                "name": "MT1DACX",
+                                "description": "% Means Of Transportation: Car, Truck, Or Van - Drove Alone"
+                            },
+                            {
+                                "value": "3.19",
+                                "name": "MT2CPCX",
+                                "description": "% Means Of Transportation: Car, Truck, Or Van - Carpooled"
+                            },
+                            {
+                                "value": "0",
+                                "name": "MT3BUSCX",
+                                "description": "% Means Of Transportation: Public Transportation"
+                            },
+                            {
+                                "value": "1.91",
+                                "name": "MT4WALKCX",
+                                "description": "% Means Of Transportation: Walked"
+                            },
+                            {
+                                "value": "0",
+                                "name": "MT5TMBOCX",
+                                "description": "% Means Of Transportation: Taxicab, Motorcycle, Bicycle, Or Other Means"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TRAVELTMCX",
+                        "alias": "% Travel Time",
+                        "description": "Workers % By Travel Time To Work",
+                        "baseVariable": "WRKNAHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "28.3",
+                                "name": "TT1519CX",
+                                "description": "% Travel Time: 15 To 19 Minutes"
+                            },
+                            {
+                                "value": "23.62",
+                                "name": "TT2024CX",
+                                "description": "% Travel Time: 20 To 24 Minutes"
+                            },
+                            {
+                                "value": "24.04",
+                                "name": "TT1014CX",
+                                "description": "% Travel Time: 10 To 14 Minutes"
+                            },
+                            {
+                                "value": "8.3",
+                                "name": "TT0009CX",
+                                "description": "% Travel Time: Less Than 10 Minutes"
+                            },
+                            {
+                                "value": "0",
+                                "name": "TT3034CX",
+                                "description": "% Travel Time: 30 To 34 Minutes"
+                            },
+                            {
+                                "value": "5.74",
+                                "name": "TT60PCX",
+                                "description": "% Travel Time: 60 Or More Minutes"
+                            },
+                            {
+                                "value": "0",
+                                "name": "TT4559CX",
+                                "description": "% Travel Time: 45 To 59 Minutes"
+                            },
+                            {
+                                "value": "0",
+                                "name": "TT2529CX",
+                                "description": "% Travel Time: 25 To 29 Minutes"
+                            },
+                            {
+                                "value": "10",
+                                "name": "TT3544CX",
+                                "description": "% Travel Time: 35 To 44 Minutes"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TIMELVNGCY",
+                        "alias": "Time Leaving To Work",
+                        "description": "Workers By Time Leaving To Work",
+                        "baseVariable": "WRKNAHCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "11",
+                                "name": "TL0000CY",
+                                "description": "12:00 A.M. To 4:59 A.M."
+                            },
+                            {
+                                "value": "8",
+                                "name": "TL0500CY",
+                                "description": "5:00 A.M. To 5:29 A.M."
+                            },
+                            {
+                                "value": "0",
+                                "name": "TL0530CY",
+                                "description": "5:30 A.M. To 5:59 A.M."
+                            },
+                            {
+                                "value": "23",
+                                "name": "TL0600CY",
+                                "description": "6:00 A.M. To 6:29 A.M."
+                            },
+                            {
+                                "value": "67",
+                                "name": "TL0630CY",
+                                "description": "6:30 A.M. To 6:59 A.M."
+                            },
+                            {
+                                "value": "66",
+                                "name": "TL0700CY",
+                                "description": "7:00 A.M. To 7:29 A.M."
+                            },
+                            {
+                                "value": "0",
+                                "name": "TL0730CY",
+                                "description": "7:30 A.M. To 7:59 A.M."
+                            },
+                            {
+                                "value": "42",
+                                "name": "TL0800CY",
+                                "description": "8:00 A.M. To 8:29 A.M."
+                            },
+                            {
+                                "value": "7",
+                                "name": "TL0830CY",
+                                "description": "8:30 A.M. To 8:59 A.M."
+                            },
+                            {
+                                "value": "25",
+                                "name": "TL0900CY",
+                                "description": "9:00 A.M. To 9:59 A.M."
+                            },
+                            {
+                                "value": "8",
+                                "name": "TL1000CY",
+                                "description": "10:00 A.M. To 10:59 A.M."
+                            },
+                            {
+                                "value": "26",
+                                "name": "TL1100CY",
+                                "description": "11:00 A.M. To 11:59 A.M."
+                            },
+                            {
+                                "value": "88",
+                                "name": "TL1200CY",
+                                "description": "12:00 P.M. To 3:59 P.M."
+                            },
+                            {
+                                "value": "99",
+                                "name": "TL1600CY",
+                                "description": "4:00 P.M. To 11:59 P.M."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "INDUSTRYCX",
+                        "alias": "% Industry",
+                        "description": "% Civilian Employed Population Age 16+ Yrs By Industry",
+                        "baseVariable": "ECPOP16PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "16.73",
+                                "name": "IN10EDUCCX",
+                                "description": "% Educational Services, Health Care And Social Assistance"
+                            },
+                            {
+                                "value": "12.84",
+                                "name": "IN05RTRDCX",
+                                "description": "% Retail Trade"
+                            },
+                            {
+                                "value": "7.98",
+                                "name": "IN09PROFCX",
+                                "description": "% Professional, Scientific, And Management"
+                            },
+                            {
+                                "value": "6.81",
+                                "name": "IN11ARTSCX",
+                                "description": "% Arts, Entertainment, Accommodation And Food Services"
+                            },
+                            {
+                                "value": "5.25",
+                                "name": "IN13PUBLCX",
+                                "description": "% Public Administration"
+                            },
+                            {
+                                "value": "2.92",
+                                "name": "IN08FIRECX",
+                                "description": "% Finance, Insurance, Real Estate, And Rental And Leasing"
+                            },
+                            {
+                                "value": "17.51",
+                                "name": "IN03MFGCX",
+                                "description": "% Manufacturing"
+                            },
+                            {
+                                "value": "0",
+                                "name": "IN06TRANCX",
+                                "description": "% Transportation And Warehousing, And Utilities"
+                            },
+                            {
+                                "value": "2.33",
+                                "name": "IN12OTHSCX",
+                                "description": "% Other Services, Except Public Administration"
+                            },
+                            {
+                                "value": "5.25",
+                                "name": "IN01AGRCX",
+                                "description": "% Agriculture, Forestry, Fishing And Hunting, And Mining"
+                            },
+                            {
+                                "value": "3.31",
+                                "name": "IN07INFOCX",
+                                "description": "% Information"
+                            },
+                            {
+                                "value": "17.51",
+                                "name": "IN02CNSTCX",
+                                "description": "% Construction"
+                            },
+                            {
+                                "value": "1.56",
+                                "name": "IN04WTRDCX",
+                                "description": "% Wholesale Trade"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "OCCUPATNCX",
+                        "alias": "% Occupation",
+                        "description": "% Civilian Employed Population Age 16+ Yrs By Occupation",
+                        "baseVariable": "ECPOP16PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "28.79",
+                                "name": "OC1MBSACX",
+                                "description": "% Management, Business, Science, And Arts Occupations"
+                            },
+                            {
+                                "value": "22.57",
+                                "name": "OC3SALECX",
+                                "description": "% Sales And Office Occupations"
+                            },
+                            {
+                                "value": "9.14",
+                                "name": "OC2SERVCX",
+                                "description": "% Service Occupations"
+                            },
+                            {
+                                "value": "16.93",
+                                "name": "OC5PTMMCX",
+                                "description": "% Production, Transportation, And Material Moving Occupations"
+                            },
+                            {
+                                "value": "22.57",
+                                "name": "OC4NRCMCX",
+                                "description": "% Natural Resources, Construction, And Maintenance Occupations"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "JOBTYPECX",
+                        "alias": "% White/Blue Collar",
+                        "description": "% Civilian Employed Population Age 16+ Yrs By Job Type (White/Blue Collar)",
+                        "baseVariable": "ECPOP16PCY",
+                        "year": "2019 Estimates",
+                        "field": [
+                            {
+                                "value": "51.36",
+                                "name": "OC6WCCX",
+                                "description": "% White Collar"
+                            },
+                            {
+                                "value": "48.64",
+                                "name": "OC7BCCX",
+                                "description": "% Blue Collar"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "expenditureTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "CETOTALCY",
+                        "description": "Total Household Expenditures $",
+                        "year": "2019 Estimates",
+                        "value": "24023016"
+                    },
+                    {
+                        "name": "CE01CY",
+                        "description": "Food $",
+                        "year": "2019 Estimates",
+                        "value": "3122757"
+                    },
+                    {
+                        "name": "CE02CY",
+                        "description": "Alcoholic Beverages $",
+                        "year": "2019 Estimates",
+                        "value": "225769"
+                    },
+                    {
+                        "name": "CE03CY",
+                        "description": " Housing",
+                        "year": "2019 Estimates",
+                        "value": "7914448"
+                    },
+                    {
+                        "name": "CE04CY",
+                        "description": " Apparel And Services",
+                        "year": "2019 Estimates",
+                        "value": "733013"
+                    },
+                    {
+                        "name": "CE05CY",
+                        "description": " Transportation",
+                        "year": "2019 Estimates",
+                        "value": "3862234"
+                    },
+                    {
+                        "name": "CE06CY",
+                        "description": " Healthcare",
+                        "year": "2019 Estimates",
+                        "value": "1936903"
+                    },
+                    {
+                        "name": "CE07CY",
+                        "description": " Entertainment",
+                        "year": "2019 Estimates",
+                        "value": "1248828"
+                    },
+                    {
+                        "name": "CE08CY",
+                        "description": " Personal Care Products And Services",
+                        "year": "2019 Estimates",
+                        "value": "303317"
+                    },
+                    {
+                        "name": "CE09CY",
+                        "description": " Reading",
+                        "year": "2019 Estimates",
+                        "value": "41281"
+                    },
+                    {
+                        "name": "CE10CY",
+                        "description": " Education",
+                        "year": "2019 Estimates",
+                        "value": "548833"
+                    },
+                    {
+                        "name": "CE11CY",
+                        "description": " Tobacco Products And Smoking Supplies",
+                        "year": "2019 Estimates",
+                        "value": "137362"
+                    },
+                    {
+                        "name": "CE12CY",
+                        "description": " Miscellaneous",
+                        "year": "2019 Estimates",
+                        "value": "389118"
+                    },
+                    {
+                        "name": "CE13CY",
+                        "description": " Cash Contributions",
+                        "year": "2019 Estimates",
+                        "value": "720937"
+                    },
+                    {
+                        "name": "CE14CY",
+                        "description": " Personal Insurance And Pensions",
+                        "year": "2019 Estimates",
+                        "value": "2838216"
+                    }
+                ]
+            },
+            "supplyAndDemandTheme": {
+                "individualValueVariable": [
+                    {
+                        "name": "AU4411CY",
+                        "description": "Retail Sales Potential: Automobile Dealers",
+                        "year": "2019 Estimates",
+                        "value": "1908912"
+                    },
+                    {
+                        "name": "AU4412CY",
+                        "description": "Retail Sales Potential: Other Motor Vehicle Dealers",
+                        "year": "2019 Estimates",
+                        "value": "123685"
+                    },
+                    {
+                        "name": "AU44131CY",
+                        "description": "Retail Sales Potential: Automotive Parts And Accessories Stores",
+                        "year": "2019 Estimates",
+                        "value": "350980"
+                    },
+                    {
+                        "name": "AU44132CY",
+                        "description": "Retail Sales Potential: Tire Dealers",
+                        "year": "2019 Estimates",
+                        "value": "160239"
+                    },
+                    {
+                        "name": "BU44411CY",
+                        "description": "Retail Sales Potential: Home Centers",
+                        "year": "2019 Estimates",
+                        "value": "109491"
+                    },
+                    {
+                        "name": "BU44412CY",
+                        "description": "Retail Sales Potential: Paint And Wallpaper Stores",
+                        "year": "2019 Estimates",
+                        "value": "12634"
+                    },
+                    {
+                        "name": "BU44413CY",
+                        "description": "Retail Sales Potential: Hardware Stores",
+                        "year": "2019 Estimates",
+                        "value": "15081"
+                    },
+                    {
+                        "name": "BU44421CY",
+                        "description": "Retail Sales Potential: Outdoor Power Equipment Stores",
+                        "year": "2019 Estimates",
+                        "value": "46699"
+                    },
+                    {
+                        "name": "BU44422CY",
+                        "description": "Retail Sales Potential: Nursery And Garden Centers",
+                        "year": "2019 Estimates",
+                        "value": "103343"
+                    },
+                    {
+                        "name": "CA44811CY",
+                        "description": "Retail Sales Potential: Men's Clothing Stores",
+                        "year": "2019 Estimates",
+                        "value": "131994"
+                    },
+                    {
+                        "name": "CA44812CY",
+                        "description": "Retail Sales Potential: Women's Clothing Stores",
+                        "year": "2019 Estimates",
+                        "value": "250214"
+                    },
+                    {
+                        "name": "CA44813CY",
+                        "description": "Retail Sales Potential: Children's And Infants Clothing Stores",
+                        "year": "2019 Estimates",
+                        "value": "111268"
+                    },
+                    {
+                        "name": "CA4482CY",
+                        "description": "Retail Sales Potential: Shoe Stores",
+                        "year": "2019 Estimates",
+                        "value": "153991"
+                    },
+                    {
+                        "name": "CA44831CY",
+                        "description": "Retail Sales Potential: Jewelry Stores",
+                        "year": "2019 Estimates",
+                        "value": "36547"
+                    },
+                    {
+                        "name": "EA44311CY",
+                        "description": "Retail Sales Potential: Appliance, Television, And Other Electronics Stores",
+                        "year": "2019 Estimates",
+                        "value": "279527"
+                    },
+                    {
+                        "name": "EA44312CY",
+                        "description": "Retail Sales Potential: Computer And Software Stores",
+                        "year": "2019 Estimates",
+                        "value": "695522"
+                    },
+                    {
+                        "name": "EA44313CY",
+                        "description": "Retail Sales Potential: Camera And Photographic Supplies Stores",
+                        "year": "2019 Estimates",
+                        "value": "15621"
+                    },
+                    {
+                        "name": "FB44511CY",
+                        "description": "Retail Sales Potential: Supermarkets And Other Grocery (Except Convenience) Stores",
+                        "year": "2019 Estimates",
+                        "value": "1915417"
+                    },
+                    {
+                        "name": "FB44512CY",
+                        "description": "Retail Sales Potential: Convenience Stores",
+                        "year": "2019 Estimates",
+                        "value": "591038"
+                    },
+                    {
+                        "name": "FB4453CY",
+                        "description": "Retail Sales Potential: Beer, Wine, And Liquor Stores",
+                        "year": "2019 Estimates",
+                        "value": "113213"
+                    },
+                    {
+                        "name": "FU4421CY",
+                        "description": "Retail Sales Potential: Furniture Stores",
+                        "year": "2019 Estimates",
+                        "value": "204753"
+                    },
+                    {
+                        "name": "FU4422CY",
+                        "description": "Retail Sales Potential: Home Furnishings Stores",
+                        "year": "2019 Estimates",
+                        "value": "459389"
+                    },
+                    {
+                        "name": "GA44711CY",
+                        "description": "Retail Sales Potential: Gasoline Stations With Convenience Stores",
+                        "year": "2019 Estimates",
+                        "value": "1366194"
+                    },
+                    {
+                        "name": "GA44719CY",
+                        "description": "Retail Sales Potential: Other Gasoline Stations",
+                        "year": "2019 Estimates",
+                        "value": "837706"
+                    },
+                    {
+                        "name": "GR452CY",
+                        "description": "Retail Sales Potential: General Merchandise Stores",
+                        "year": "2019 Estimates",
+                        "value": "2429580"
+                    },
+                    {
+                        "name": "GR4521CY",
+                        "description": "Retail Sales Potential: Department Stores (Excel Leased Depts.)",
+                        "year": "2019 Estimates",
+                        "value": "2429580"
+                    },
+                    {
+                        "name": "HP44611CY",
+                        "description": "Retail Sales Potential: Pharmacies And Drug Stores",
+                        "year": "2019 Estimates",
+                        "value": "510972"
+                    },
+                    {
+                        "name": "HP44619CY",
+                        "description": "Retail Sales Potential: Other Health And Personal Care Stores",
+                        "year": "2019 Estimates",
+                        "value": "146868"
+                    },
+                    {
+                        "name": "MR45391CY",
+                        "description": "Retail Sales Potential: Pet And Pet Supplies Stores",
+                        "year": "2019 Estimates",
+                        "value": "145430"
+                    },
+                    {
+                        "name": "RE_CY",
+                        "description": "Retail Sales Potential: Restaurant Expenditures",
+                        "year": "2019 Estimates",
+                        "value": "574353"
+                    },
+                    {
+                        "name": "SP45111CY",
+                        "description": "Retail Sales Potential: Sporting Goods Stores",
+                        "year": "2019 Estimates",
+                        "value": "58469"
+                    },
+                    {
+                        "name": "SP45112CY",
+                        "description": "Retail Sales Potential: Hobby, Toy, And Game Stores",
+                        "year": "2019 Estimates",
+                        "value": "58302"
+                    },
+                    {
+                        "name": "SP45113CY",
+                        "description": "Retail Sales Potential: Sewing, Needlework, And Piece Goods Stores",
+                        "year": "2019 Estimates",
+                        "value": "13714"
+                    },
+                    {
+                        "name": "SP45114CY",
+                        "description": "Retail Sales Potential: Musical Instrument And Supplies Stores",
+                        "year": "2019 Estimates",
+                        "value": "12687"
+                    },
+                    {
+                        "name": "SP4512CY",
+                        "description": "Retail Sales Potential: Book, Periodical, And Music Stores",
+                        "year": "2019 Estimates",
+                        "value": "19185"
+                    },
+                    {
+                        "name": "GAF_CY",
+                        "description": "Retail Sales Potential: General Merchandise, Apparel, And Furniture",
+                        "year": "2019 Estimates",
+                        "value": "2126263"
+                    }
+                ]
+            }
+        }
+    ]
+}
