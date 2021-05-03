@@ -1,4 +1,4 @@
-# Precisely_JSON_To_CSV
+# Precisely-JSON-To-CSV
 
 Objective: Flatten the JSON response from Precisely Demographics into CSV format 
 
