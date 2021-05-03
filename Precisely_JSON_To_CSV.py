@@ -35,11 +35,11 @@ def append_to_csv(state,df, varType):
 def json_parse_individual(json_response, theme):
 
     #get boundary group information
-    df_boundary_info = pd.io.json.json_normalize(json_response[u'boundaries'][u'boundary'])
+    df_boundary_info = pd.json_normalize(json_response[u'boundaries'][u'boundary'])
     df_boundary_info['theme'] = theme
 
     #create dataframe for individualValueVariable
-    df_individualVal = pd.io.json.json_normalize(json_response[u'boundaryThemes'][0][theme],'individualValueVariable')
+    df_individualVal = pd.json_normalize(json_response[u'boundaryThemes'][0][theme],'individualValueVariable')
     #concatinate fields with boundary info
     df_individualVal_final =  make_final_df(df_boundary_info,df_individualVal)
     #check if csv exists, if it doesn't then add....
@@ -49,10 +49,10 @@ def json_parse_individual(json_response, theme):
 def json_parse_range(json_response, theme):
 
     #get boundary group information
-    df_boundary_info = pd.io.json.json_normalize(json_response[u'boundaries'][u'boundary'])
+    df_boundary_info = pd.json_normalize(json_response[u'boundaries'][u'boundary'])
     df_boundary_info['theme'] = theme
     
-    df_rangeVal = pd.io.json.json_normalize(json_response[u'boundaryThemes'][0][theme]['rangeVariable'],'field',['name', 'alias', 'description', 'baseVariable', 'year'], record_prefix='field_', errors='ignore')
+    df_rangeVal = pd.json_normalize(json_response[u'boundaryThemes'][0][theme]['rangeVariable'],'field',['name', 'alias', 'description', 'baseVariable', 'year'], record_prefix='field_', errors='ignore')
     #re-ordering so field columns show up at the end and adding the prefix 
     df_rangeVal = df_rangeVal.reindex(columns=['name', 'alias', 'description', 'baseVariable', 'year', 'field_name', 'field_description', 'field_value'])
     #concatenate and make into csv
@@ -63,17 +63,8 @@ def json_parse_range(json_response, theme):
 #this should be run only after you have completed collecting all the json files from precisely and now need to flatten them.
 def main():
     #choose state you were interested in 
-    state = 'California'
+    state = 'RandomState'
     demographic_themes = ["populationTheme", "raceAndEthnicityTheme","healthTheme","educationTheme", "incomeTheme", "assetsAndWealthTheme", "householdsTheme", "housingTheme", "employmentTheme", "expenditureTheme", "supplyAndDemandTheme"]
-    
-    # create folder if doesn't exist 
-    parent_dir = os.getcwd() + '/data_csv_format'
-    the_path = os.path.join(parent_dir, state)
-    file = pathlib.Path(the_path)
-
-    if file.exists() is not True:
-    #make directory 
-        os.mkdir(the_path)
 
     BGID_List = []
     for name in glob.glob('*.json'):
@@ -101,9 +92,9 @@ def main():
     for i in range(length):
         #open the boundaryfile we need to move to csv 
         try:
-            filePath = state +'/' + BGID_List[i]
+            filePath = BGID_List[i]
             jsonData = json.load(open(filePath))
-            if len(jsonData) is 0:
+            if len(jsonData) == 0:
                 continue
         except:
             print("Something wrong with opening the file: " + BGID_List[i])
@@ -118,16 +109,19 @@ def main():
                 df_temp_individualVar = json_parse_individual(jsonData, theme)
                 #concat to list 
                 list_of_df_individualVar.append(df_temp_individualVar)
-                if theme is not "supplyAndDemandTheme":
+                print(theme)
+                if theme == 'expenditureTheme':
+                    print("its here")
+                if theme != 'expenditureTheme' and theme != 'supplyAndDemandTheme':
                     df_temp_rangeVar = json_parse_range(jsonData, theme)
                     list_of_df_rangeVar.append(df_temp_rangeVar)
             except: 
-                print(BGID_List[i] + " not flattened")
+                print(BGID_List[i] + " not flattened at " + theme)
                 break
 
         try:
             #convert of list of df into one large df
-            if len(list_of_df_individualVar) < 11 or len(list_of_df_rangeVar) < 10:
+            if len(list_of_df_individualVar) < 11:
                 raise Exception(BGID_List[i] +  "not all themes were completed")
 
             df_individualVar = pd.concat(list_of_df_individualVar, ignore_index=True)
